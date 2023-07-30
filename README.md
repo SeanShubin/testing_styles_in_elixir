@@ -16,7 +16,7 @@
 - Feedback
 
 ## Critical Thinking
-My intention is to seek the fact of the matter regarding the advantages and disadvantages of approaches to testing with Elixir.   I don’t have an opinion on what the fact of the matter turns out to be, I am curious about what the fact of the matter is.  While I consider it wise to seek out perspectives of people more experienced than me or smarter than me, experience and intelligence are just tools, they don’t make something true.  This is my attempt to judge between better and worse ways of testing, and document that in a manner such that the reasons why are self-evident.
+My intention is to seek the fact of the matter regarding the advantages and disadvantages of approaches to testing with Elixir.   I don’t have an opinion on what the fact of the matter turns out to be, I am curious about what the fact of the matter is.  While I consider it wise to seek out perspectives of people more experienced than me or smarter than me, experience and intelligence are just tools, they don’t make something true.  This is my attempt to judge between better and worse ways of testing in Elixir, and document that in a manner such that the reasons why are self-evident.
 
 ## Definitions
 To communicate clearly, I need to be precise about the distinctions between these terms as they relate to the different styles of testing.  My intention is to be compatible with common usage, while narrowing the definition to achieve the necessary precision to be clear.

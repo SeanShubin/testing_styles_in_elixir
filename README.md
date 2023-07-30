@@ -185,8 +185,9 @@ Due to the use of method injection for overriding with fakes, the solution with 
 ## What is my preference and why?
 
 I am going to make a principled argument based on the following values.
-Being easy to maintain is more important than being easy to write, because you only initially write code once, but you repeatedly maintain it indefinitely.
-Code should clearly express its intent, that is, when you look at the code, it should be obvious what the code is doing, even without knowing the language.
+
+- Being easy to maintain is more important than being easy to write, because you only initially write code once, but you repeatedly maintain it indefinitely.
+- Code should clearly express its intent, that is, when you look at the code, it should be obvious what the code is doing, even without knowing the language.
 
 If you accept these values as the most important, I think it is the inescapable conclusion that fakes are the best solution of the ones I have presented.
 

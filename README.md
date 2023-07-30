@@ -21,11 +21,11 @@ My intention is to seek the fact of the matter regarding the advantages and disa
 ## Definitions
 To communicate clearly, I need to be precise about the distinctions between these terms as they relate to the different styles of testing.  My intention is to be compatible with common usage, while narrowing the definition to achieve the necessary precision to be clear.
 
-Module under test: Module containing the logic being tested, which may collaborate with other modules.
-Collaborator: Module containing behavior depended on by the module under test.
-Stub: A replacement for a collaborator, implemented based on the needs of a particular test.
-Fake: A replacement for a collaborator, implemented as a simulation based on the needs of any  test whos module under test collaborates with the module being faked
-Mock: A replacement for a collaborator, implemented to allow outputs to be precisely specified and inputs to be recorded for verification by the test.
+- Module under test: Module containing the logic being tested, which may collaborate with other modules.
+- Collaborator: Module containing behavior depended on by the module under test.
+- Stub: A replacement for a collaborator, implemented based on the needs of a particular test.
+- Fake: A replacement for a collaborator, implemented as a simulation based on the needs of any  test whos module under test collaborates with the module being faked
+- Mock: A replacement for a collaborator, implemented to allow outputs to be precisely specified and inputs to be recorded for verification by the test.
 
 ## The Sample
 This is an extension of the typical “hello, world” example designed to be as simple as possible to implement, as hard as possible to test, and to be complete regarding types of testing needs.  I read a file name from the command line arguments, read the greeting target from the file, emit a greeting to that target to the console, and emit how long the process took.  Here is the sample:
